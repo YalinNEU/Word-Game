@@ -1,0 +1,102 @@
+p{
+    margin:0;
+}
+.banner,.banner a{
+    height: 50px;
+    background-color: maroon;
+    color:white;
+    line-height: 50px;
+    text-align: center;
+    text-decoration-line: none;
+}
+.form{
+    margin:auto;
+    width:500px;
+    height:50px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+#play-btn{
+    background-color: lightgrey;
+    border:none;
+    width:50px;
+    font-size:12px;
+}
+ul{
+    margin:0px;
+    padding:0px;
+}
+
+.nav-header li{
+    margin:0px 100px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+.word-set li {
+    text-align: center;
+    list-style: none;
+}
+.drop-down-content{
+    display: none;
+    position: absolute;
+}
+#difficulty:hover .drop-down-content{
+    display: block;
+}
+.drop-down-content li{
+    margin:0px;
+    display: block;
+    width:100px;
+    background-color: goldenrod;
+}
+.drop-down-content li:hover{
+    background-color: lightgray;
+    color:black;
+    text-decoration: underline;
+}
+.summary-panel{
+    height:50px;
+    background-color: lavenderblush;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+.game-status, .history-summary{
+    display: inline;
+    margin: 0px 20px;
+}
+.message{
+    min-height:100px;
+    background-color: lightsalmon;
+    line-height: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+.history-panel{
+    height:500px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    background-color: papayawhip;
+}
+.history-record, .word-dict{
+    display:inline-block;
+    width:500px;
+    height:500px;
+    margin:0px 20px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    background-color: cornsilk;
+}
+.word-dict{
+    text-align: center;
+}
+.word-set{
+    width:100px;
+}

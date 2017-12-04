@@ -1,0 +1,21 @@
+{
+  "name": "word-game",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "babel-tape-runner src/*.test.js",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-tape-runner": "^2.0.1",
+    "tape": "^4.8.0"
+  }
+}

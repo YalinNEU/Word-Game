@@ -1,0 +1,39 @@
+.login {
+    position:absolute;
+    margin:auto;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    width:600px;
+    height:350px;
+    text-align: center;
+    background-color: #f2dede;
+}
+.login-title{
+    font-size: 3em;
+    font-family: fantasy;
+    font-weight: bold;
+}
+.login-form{
+    margin-top:70px;
+}
+.form-control {
+    height:30px;
+    width:200px;
+}
+.login-form label{
+    font-size: 1em;
+    font-weight: bold;
+    color:dimgrey;
+}
+.password {
+    margin:5px;
+}
+.login-button button{
+    height: 40px;
+    width:200px;
+    margin:5px;
+    font-size: 1em;
+    color:dimgrey;
+}
